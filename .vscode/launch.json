@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:cadence-shift}",
+            "name": "Debug cadence-shift",
+            "target": "cadence-shift",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug cadence-shift"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:cadence-shift}",
+            "name": "Release cadence-shift",
+            "target": "cadence-shift",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release cadence-shift"
+        }
+    ]
+}
